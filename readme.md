@@ -1,0 +1,5 @@
+-This project uses the WiFi network to connect between ESP8266 and Raspberry Pi<br>
+-Both devices should install an RGB sensor and two LED's : Red and Green<br>
+-The devices will send each other its RGB sensor's readings by UDP messages<br>
+-Whichever is brighter then turns its Red LED ON, otherwise OFF<br>
+-If it can't receive a message from the other side, it flashes the Red LED to indicate an error condition<br>
