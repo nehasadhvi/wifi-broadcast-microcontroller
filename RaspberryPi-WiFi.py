@@ -36,10 +36,8 @@ s.bind(('',MYPORT))
 
 while(True):
             r, g, b = sensor.color_rgb_bytes
-            #r, g, b, c = tcs.get_raw_data()
             total = total - values[indexVal];
             values[indexVal] = (r+g+b)/3;
-            #values[indexVal] = c;
             total = total + values[indexVal];
             average = total/5*40;
             
